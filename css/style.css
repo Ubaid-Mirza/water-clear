@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 0px;
+}
+.header{
+    background-image: url(/images/bg-header-one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    padding: 0px 0px 50px 0px;
+}
+.header-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+}
+.button-side{
+    padding: 250px 0px;
+}
+.header-body{
+    width: 80%;
+}
+.nav-two{
+    border-top: 1px solid black;
+}
+.nav-two-main-list > li{
+    padding: 0px 10px;
+    font-weight: 500;
+    transition: 0.1s;
+}
+.nav-two-main-list-link{
+    color: white !important;
+}
+.nav-two-main-list > li:hover{
+    border-top: 2px solid red;  
+}
+.application-side{
+    width: 100%;
+}
+.app-col-one{
+    width: 33%;
+}
+.app-col-two{
+    width: 33%;
+}
+.app-col-three{
+    width: 33%;
+}
+.product-side{
+    width: 100%;
+}
+.product-left-col{
+    width: 50%;
+}
+.coli-para{
+    line-height: 40px;
+}
+.product-right-col{
+    width: 50%;
+}
+.add-on-module-side{
+    width: 100%;
+}
+.add-on-module-left-side{
+    width: 50%;
+}
+.add-on-module-right-side{
+    width: 50%;
+}
+.autosampler-side{
+    width: 100%;
+}
+.autosampler-left-side{
+    width: 50%;
+}
+.autosampler-right-side{
+    width: 50%;
+}
+.reallife-example-side{
+    width: 100%;
+    background-image: url(/images/real.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0px !important;
+}
+.about-us-side{
+    width: 100%;
+}
+.about-us-left-col{
+    width: 50%;
+}
+.about-us-right-col{
+    width: 50%;
+}
+.footer{
+    width: 100%;
+    background-image: url(/images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-left-col{
+    width: 80%;
+}
+
+.footer-right-col{
+    width: 20%;
+
+}

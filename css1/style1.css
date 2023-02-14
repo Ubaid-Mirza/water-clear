@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    padding: 0px;
+}
+.header{
+    background-image: url(/images1/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+}
+.header-left{
+    width: 30%;
+    color: rgb(1, 155, 245);
+}
+.head{
+    font-size: 60px;
+    font-weight: 800;
+    padding: 180px 0px;
+}
+.row-one{
+    width: 100%;
+}
+.row-one-left-col{
+    width: 50%;
+}
+.row-one-right-col{
+    width: 50%;
+}
+.row-two{
+    width: 100%;
+}
+.row-two-left-col{
+    width: 50%;
+}
+.row-two-right-col{
+    width: 50%;
+}
+.row-three{
+    width: 100%;
+}
+.row-three-left-col{
+    width: 50%;
+}
+.row-three-right-col{
+    width: 50%;
+}
+.reallife-example-side{
+    width: 100%;
+    background-image: url(/images/real.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0px !important;
+}
+.about-us-side{
+    width: 100%;
+}
+.about-us-left-col{
+    width: 50%;
+}
+.about-us-right-col{
+    width: 50%;
+}
+.footer{
+    width: 100%;
+    background-image: url(/images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-left-col{
+    width: 100%;
+}
+.footer > h3 {
+    color: white;
+    padding: 90px 30px 70px 30px;
+}
+.left-col-row-one > h4 {
+    color: white;
+}
+.footer-logo{
+    width: 10%;
+}
+.coli-para{
+    line-height: 40px;
+}
+/* RESPONSIVE SITE */
+    @media only screen and (max-width: 1000px){
+        .about-us-row{
+            display: block !important;
+        }
+        .about-us-left-col{
+            width: 100%;
+        }
+        .about-us-right-col{
+            width: 100%;
+        }
+        .coli-para{
+            line-height: 30px;
+        }
+    }
+
+@media only screen and (max-width: 768px){
+    .product-row-one{
+        display: block !important;
+    }
+    .row-one-left-col{
+        width: 100%;
+    }
+    .row-one-right-col{
+        width: 100%;
+    }
+    .product-row-two{
+        display: block !important;
+    }
+    .row-two-left-col{
+        width: 100%;
+    }
+    .row-two-right-col{
+        width: 100%;
+    }
+    .product-row-three{
+        display: block !important;
+    }
+    .row-three-left-col{
+        width: 100%;
+    }
+    .row-three-right-col{
+        width: 100%;
+    }
+    .footer-logo{
+        width: 20%;
+    }
+}

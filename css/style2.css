@@ -106,10 +106,10 @@
 /* END OF NAVBAAR */
 /* START OF HEADER */
 .header {
-    height: 100%;
+    height: 85vh;
     width: 100%;
     background: linear-gradient(180deg, #805ff7, 5%, #19425f, 50%, #030423);
-    position: absolute;
+    position: relative;
 }
 
 .header div {
@@ -219,3 +219,55 @@ div .dot {
     background: blueviolet;
 }
 /* END OF SCROLLBAAR */
+
+.water-impurities{
+    background-color: aliceblue;
+}
+.w-i-para{
+    line-height: 33px;
+    font-weight: bold;
+}
+.drink-img{
+    display: block;
+    margin: 0 auto;
+}
+.w-i-para-2{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    font-style: italic;
+    line-height: 33px;
+    border-left: 5px solid red;
+}
+.s-w-approach{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    font-style: italic;
+    line-height: 33px;
+    border-left: 5px solid blue;
+}
+.water-purification-method{
+    background-image: url(/images/bg-one.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card-body{
+    background: linear-gradient(180deg, #3202e0, 5%, #0877cc, 50%, #75769e);
+}
+.footer{
+   
+}
+.list-one{
+    list-style-type: none;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}
+.list-two{
+    list-style-type: none;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}

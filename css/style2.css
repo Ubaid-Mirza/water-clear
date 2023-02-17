@@ -16,7 +16,7 @@
 /* START OF OFFCANVAS */
 
 .offcanvas-start {
-    background-color: #19425f;
+    background: linear-gradient(180deg, #3202e0, 5%, #0877cc, 50%, #75769e);
 }
 
 .off-logo {
@@ -32,6 +32,7 @@
 
 .accordion-header {
     text-align: justify;
+    
 }
 
 .accordion-item {
@@ -42,9 +43,13 @@
 }
 
 .accordion-button {
-    background-color: aliceblue;
-    color: rgb(54, 48, 48);
-    font-weight: bold;
+    background-image: linear-gradient(180deg, #9b8c92, 5%, #f1c5f7, 50%, #b1fff2);
+    color: rgb(2, 35, 36);
+    border: 2px solid rgb(32, 26, 26);
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-family: bulletproof;
     text-shadow: 2px 2px 4px #5f5d5d;
     display: flex;
     justify-content: space-between;
@@ -52,7 +57,7 @@
 }
 
 .accordion {
-    background-color: #19425f;
+    background: transparent;
     color: white;
     display: flex;
     flex-direction: column;
@@ -219,6 +224,7 @@ div .dot {
     background: blueviolet;
 }
 /* END OF SCROLLBAAR */
+/* START OF WATER-IMPURITIES */
 
 .water-impurities{
     background-color: aliceblue;
@@ -247,15 +253,32 @@ div .dot {
     line-height: 33px;
     border-left: 5px solid blue;
 }
+/* END OF WATER-IMPURITIES */
+/* START OF WATER-PURIFICATION */
 .water-purification-method{
     background-image: url(/images/bg-one.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+.colone{
+    background-image: linear-gradient( #5ddcff, #3c67e3 43%, #4e00c2);
+}
+.coltwo{
+    background-image: linear-gradient( #5ddcff, #3c67e3 43%, #4e00c2);
+}
+.colthree{
+    background-image: linear-gradient( #5ddcff, #3c67e3 43%, #4e00c2);
+}
+
+/* END OF WATER-PURIFICATION */
+/* START OF CARD-DECKS */
 .card-body{
     background: linear-gradient(180deg, #3202e0, 5%, #0877cc, 50%, #75769e);
+    
 }
+/* END OF CARD-DECKS */
+/* START OF FOOTER */
 .footer{
    
 }
@@ -270,4 +293,71 @@ div .dot {
     line-height: 40px;
     color: white;
     font-weight: bold;
+}
+/* END OF FOOTER */
+
+/* RESPONSIVE MEDIA QUERIES */
+
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 10%;
+    }
+    /* WATER-IMPURITIES */
+    .drink-img{
+        width: 100% !important;
+    }
+    .s-w-approach{
+        width: 100%;
+    }
+    .w-i-para-2{
+        width: 100%;
+    }
+    /* WATER-PURIFICATION */
+    .rowone{
+        display: block !important;
+    }
+    .colone{
+        margin-top: 30px;
+    }
+    .coltwo{
+        margin-top: 30px;
+    }
+    .colthree{
+        margin-top: 30px;
+    }
+    /* CARD DECKS */
+    .card-deck{
+        display: block !important;
+    }
+    .card{
+        margin-top: 30px !important;
+    }
+    /* FOOTER */
+    .footer-row {
+        display: block !important;
+    }
+    .footer-left-col{
+        width: 100% !important;
+    }
+    .footer-right-col{
+        width: 100% !important;
+        margin-top: 40px;
+    }
+    .footer-btn{
+        width: 100% !important;
+    }
+    .form-check{
+        width: 50% !important;
+    margin-top: 20px;
+    padding-left: 0px;
+    }
+    
+}
+@media only screen and (max-width: 425px){
+    .footer-left-col{
+        display: block !important;
+    }
+    .logo{
+        width: 15%;
+    }
 }
